@@ -32,8 +32,17 @@ export default function Home() {
           </blockquote>
 
           {/* Byline + Title */}
-          <p className="mt-8 text-xs uppercase tracking-wide text-[#ff6600]">
-            {t(locale, "header_byline")}
+          <p className="mt-8 text-xs lowercase tracking-wide text-[#ff6600]">
+            {t(locale, "header_byline_prefix")}
+            <a
+              href="https://github.com/flavono123"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              {t(locale, "header_byline_name")}
+            </a>
+            {t(locale, "header_byline_suffix")}
           </p>
           <h1 className="mt-1 text-xl font-bold text-[#000] dark:text-[#e0e0e0]">
             {t(locale, "title")}

@@ -15,7 +15,9 @@ export function useLocale() {
 
 const dict = {
   ko: {
-    header_byline: "flavono123이 제시하는",
+    header_byline_prefix: "",
+    header_byline_name: "flavono123",
+    header_byline_suffix: "이 제시하는",
     title: "비둘기 프로그래밍",
     subtitle: "Asyn-Coo Programming",
     quote: "나는 비둘기 ... 기둘 기둘",
@@ -61,7 +63,9 @@ const dict = {
     footer: "이 문서는 AI가 생성하는 동안 작성자는 냉장고를 열고 있었습니다.",
   },
   en: {
-    header_byline: "coined by flavono123",
+    header_byline_prefix: "coined by ",
+    header_byline_name: "flavono123",
+    header_byline_suffix: "",
     title: "Asyn-Coo Programming",
     subtitle: "The A-Wait-Pigeon Development Paradigm",
     quote: "I am a-wait-pigeon ... asyn-coo asyn-coo",
